@@ -1,0 +1,1584 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Workfolder\\frameworks\\nodejs\\node.exe',
+1 verbose cli   'c:\\Workfolder\\frameworks\\nodejs\\npm-1.4.9\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.9
+3 info using node@v4.4.5
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ 'c:\\Workfolder\\project\\EnglishCoach\\src\\main\\web',
+5 verbose install   [ '@angular/common',
+5 verbose install     '@angular/compiler',
+5 verbose install     '@angular/core',
+5 verbose install     '@angular/http',
+5 verbose install     '@angular/platform-browser',
+5 verbose install     '@angular/platform-browser-dynamic',
+5 verbose install     '@angular/router',
+5 verbose install     '@angular/upgrade',
+5 verbose install     'angular2-in-memory-web-api',
+5 verbose install     'bootstrap',
+5 verbose install     'es6-shim',
+5 verbose install     'font-awesome',
+5 verbose install     'jquery',
+5 verbose install     'moment',
+5 verbose install     'ng2-bootstrap',
+5 verbose install     'reflect-metadata',
+5 verbose install     'rxjs',
+5 verbose install     'symbol-observable',
+5 verbose install     'systemjs',
+5 verbose install     'tether',
+5 verbose install     'zone.js',
+5 verbose install     'concurrently',
+5 verbose install     'del',
+5 verbose install     'gulp',
+5 verbose install     'gulp-cli',
+5 verbose install     'gulp-autoprefixer',
+5 verbose install     'gulp-sass',
+5 verbose install     'gulp-typescript',
+5 verbose install     'jasmine-core',
+5 verbose install     'lite-server',
+5 verbose install     'typings' ] ]
+6 info preinstall spring-boot-angular2@0.0.1-SNAPSHOT
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ '@angular/core@2.0.0-rc.1', null ]
+9 verbose cache add name=undefined spec="@angular/core@2.0.0-rc.1" args=["@angular/core@2.0.0-rc.1",null]
+10 verbose parsed url Url {
+10 verbose parsed url   protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: '@angular/core@2.0.0-rc.1',
+10 verbose parsed url   path: '@angular/core@2.0.0-rc.1',
+10 verbose parsed url   href: '@angular/core@2.0.0-rc.1' }
+11 verbose cache add [ '@angular/http@2.0.0-rc.1', null ]
+12 verbose cache add name=undefined spec="@angular/http@2.0.0-rc.1" args=["@angular/http@2.0.0-rc.1",null]
+13 verbose parsed url Url {
+13 verbose parsed url   protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '@angular/http@2.0.0-rc.1',
+13 verbose parsed url   path: '@angular/http@2.0.0-rc.1',
+13 verbose parsed url   href: '@angular/http@2.0.0-rc.1' }
+14 verbose cache add [ '@angular/platform-browser@2.0.0-rc.1', null ]
+15 verbose cache add name=undefined spec="@angular/platform-browser@2.0.0-rc.1" args=["@angular/platform-browser@2.0.0-rc.1",null]
+16 verbose parsed url Url {
+16 verbose parsed url   protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: '@angular/platform-browser@2.0.0-rc.1',
+16 verbose parsed url   path: '@angular/platform-browser@2.0.0-rc.1',
+16 verbose parsed url   href: '@angular/platform-browser@2.0.0-rc.1' }
+17 verbose cache add [ '@angular/platform-browser-dynamic@2.0.0-rc.1', null ]
+18 verbose cache add name=undefined spec="@angular/platform-browser-dynamic@2.0.0-rc.1" args=["@angular/platform-browser-dynamic@2.0.0-rc.1",null]
+19 verbose parsed url Url {
+19 verbose parsed url   protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '@angular/platform-browser-dynamic@2.0.0-rc.1',
+19 verbose parsed url   path: '@angular/platform-browser-dynamic@2.0.0-rc.1',
+19 verbose parsed url   href: '@angular/platform-browser-dynamic@2.0.0-rc.1' }
+20 verbose cache add [ '@angular/router@2.0.0-rc.1', null ]
+21 verbose cache add name=undefined spec="@angular/router@2.0.0-rc.1" args=["@angular/router@2.0.0-rc.1",null]
+22 verbose parsed url Url {
+22 verbose parsed url   protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: '@angular/router@2.0.0-rc.1',
+22 verbose parsed url   path: '@angular/router@2.0.0-rc.1',
+22 verbose parsed url   href: '@angular/router@2.0.0-rc.1' }
+23 verbose cache add [ '@angular/upgrade@2.0.0-rc.1', null ]
+24 verbose cache add name=undefined spec="@angular/upgrade@2.0.0-rc.1" args=["@angular/upgrade@2.0.0-rc.1",null]
+25 verbose parsed url Url {
+25 verbose parsed url   protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: '@angular/upgrade@2.0.0-rc.1',
+25 verbose parsed url   path: '@angular/upgrade@2.0.0-rc.1',
+25 verbose parsed url   href: '@angular/upgrade@2.0.0-rc.1' }
+26 verbose cache add [ 'angular2-in-memory-web-api@0.0.10', null ]
+27 verbose cache add name=undefined spec="angular2-in-memory-web-api@0.0.10" args=["angular2-in-memory-web-api@0.0.10",null]
+28 verbose parsed url Url {
+28 verbose parsed url   protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'angular2-in-memory-web-api@0.0.10',
+28 verbose parsed url   path: 'angular2-in-memory-web-api@0.0.10',
+28 verbose parsed url   href: 'angular2-in-memory-web-api@0.0.10' }
+29 verbose cache add name="angular2-in-memory-web-api" spec="0.0.10" args=["angular2-in-memory-web-api","0.0.10"]
+30 verbose parsed url Url {
+30 verbose parsed url   protocol: null,
+30 verbose parsed url   slashes: null,
+30 verbose parsed url   auth: null,
+30 verbose parsed url   host: null,
+30 verbose parsed url   port: null,
+30 verbose parsed url   hostname: null,
+30 verbose parsed url   hash: null,
+30 verbose parsed url   search: null,
+30 verbose parsed url   query: null,
+30 verbose parsed url   pathname: '0.0.10',
+30 verbose parsed url   path: '0.0.10',
+30 verbose parsed url   href: '0.0.10' }
+31 verbose addNamed [ 'angular2-in-memory-web-api', '0.0.10' ]
+32 verbose addNamed [ '0.0.10', '0.0.10' ]
+33 verbose cache add [ 'bootstrap@^4.0.0-alpha.2', null ]
+34 verbose cache add name=undefined spec="bootstrap@^4.0.0-alpha.2" args=["bootstrap@^4.0.0-alpha.2",null]
+35 verbose parsed url Url {
+35 verbose parsed url   protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: 'bootstrap@%5E4.0.0-alpha.2',
+35 verbose parsed url   path: 'bootstrap@%5E4.0.0-alpha.2',
+35 verbose parsed url   href: 'bootstrap@%5E4.0.0-alpha.2' }
+36 verbose cache add name="bootstrap" spec="^4.0.0-alpha.2" args=["bootstrap","^4.0.0-alpha.2"]
+37 verbose parsed url Url {
+37 verbose parsed url   protocol: null,
+37 verbose parsed url   slashes: null,
+37 verbose parsed url   auth: null,
+37 verbose parsed url   host: null,
+37 verbose parsed url   port: null,
+37 verbose parsed url   hostname: null,
+37 verbose parsed url   hash: null,
+37 verbose parsed url   search: null,
+37 verbose parsed url   query: null,
+37 verbose parsed url   pathname: '%5E4.0.0-alpha.2',
+37 verbose parsed url   path: '%5E4.0.0-alpha.2',
+37 verbose parsed url   href: '%5E4.0.0-alpha.2' }
+38 verbose addNamed [ 'bootstrap', '^4.0.0-alpha.2' ]
+39 verbose addNamed [ null, '>=4.0.0-alpha.2 <5.0.0-0' ]
+40 verbose cache add [ 'es6-shim@^0.35.1', null ]
+41 verbose cache add name=undefined spec="es6-shim@^0.35.1" args=["es6-shim@^0.35.1",null]
+42 verbose parsed url Url {
+42 verbose parsed url   protocol: null,
+42 verbose parsed url   slashes: null,
+42 verbose parsed url   auth: null,
+42 verbose parsed url   host: null,
+42 verbose parsed url   port: null,
+42 verbose parsed url   hostname: null,
+42 verbose parsed url   hash: null,
+42 verbose parsed url   search: null,
+42 verbose parsed url   query: null,
+42 verbose parsed url   pathname: 'es6-shim@%5E0.35.1',
+42 verbose parsed url   path: 'es6-shim@%5E0.35.1',
+42 verbose parsed url   href: 'es6-shim@%5E0.35.1' }
+43 verbose cache add name="es6-shim" spec="^0.35.1" args=["es6-shim","^0.35.1"]
+44 verbose parsed url Url {
+44 verbose parsed url   protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: '%5E0.35.1',
+44 verbose parsed url   path: '%5E0.35.1',
+44 verbose parsed url   href: '%5E0.35.1' }
+45 verbose addNamed [ 'es6-shim', '^0.35.1' ]
+46 verbose addNamed [ null, '>=0.35.1-0 <0.36.0-0' ]
+47 verbose cache add [ 'font-awesome@^4.6.1', null ]
+48 verbose cache add name=undefined spec="font-awesome@^4.6.1" args=["font-awesome@^4.6.1",null]
+49 verbose parsed url Url {
+49 verbose parsed url   protocol: null,
+49 verbose parsed url   slashes: null,
+49 verbose parsed url   auth: null,
+49 verbose parsed url   host: null,
+49 verbose parsed url   port: null,
+49 verbose parsed url   hostname: null,
+49 verbose parsed url   hash: null,
+49 verbose parsed url   search: null,
+49 verbose parsed url   query: null,
+49 verbose parsed url   pathname: 'font-awesome@%5E4.6.1',
+49 verbose parsed url   path: 'font-awesome@%5E4.6.1',
+49 verbose parsed url   href: 'font-awesome@%5E4.6.1' }
+50 verbose cache add name="font-awesome" spec="^4.6.1" args=["font-awesome","^4.6.1"]
+51 verbose parsed url Url {
+51 verbose parsed url   protocol: null,
+51 verbose parsed url   slashes: null,
+51 verbose parsed url   auth: null,
+51 verbose parsed url   host: null,
+51 verbose parsed url   port: null,
+51 verbose parsed url   hostname: null,
+51 verbose parsed url   hash: null,
+51 verbose parsed url   search: null,
+51 verbose parsed url   query: null,
+51 verbose parsed url   pathname: '%5E4.6.1',
+51 verbose parsed url   path: '%5E4.6.1',
+51 verbose parsed url   href: '%5E4.6.1' }
+52 verbose addNamed [ 'font-awesome', '^4.6.1' ]
+53 verbose addNamed [ null, '>=4.6.1-0 <5.0.0-0' ]
+54 verbose cache add [ 'jquery@^2.2.4', null ]
+55 verbose cache add name=undefined spec="jquery@^2.2.4" args=["jquery@^2.2.4",null]
+56 verbose parsed url Url {
+56 verbose parsed url   protocol: null,
+56 verbose parsed url   slashes: null,
+56 verbose parsed url   auth: null,
+56 verbose parsed url   host: null,
+56 verbose parsed url   port: null,
+56 verbose parsed url   hostname: null,
+56 verbose parsed url   hash: null,
+56 verbose parsed url   search: null,
+56 verbose parsed url   query: null,
+56 verbose parsed url   pathname: 'jquery@%5E2.2.4',
+56 verbose parsed url   path: 'jquery@%5E2.2.4',
+56 verbose parsed url   href: 'jquery@%5E2.2.4' }
+57 verbose cache add name="jquery" spec="^2.2.4" args=["jquery","^2.2.4"]
+58 verbose parsed url Url {
+58 verbose parsed url   protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: '%5E2.2.4',
+58 verbose parsed url   path: '%5E2.2.4',
+58 verbose parsed url   href: '%5E2.2.4' }
+59 verbose addNamed [ 'jquery', '^2.2.4' ]
+60 verbose addNamed [ null, '>=2.2.4-0 <3.0.0-0' ]
+61 verbose cache add [ 'moment@^2.13.0', null ]
+62 verbose cache add name=undefined spec="moment@^2.13.0" args=["moment@^2.13.0",null]
+63 verbose parsed url Url {
+63 verbose parsed url   protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: 'moment@%5E2.13.0',
+63 verbose parsed url   path: 'moment@%5E2.13.0',
+63 verbose parsed url   href: 'moment@%5E2.13.0' }
+64 verbose cache add name="moment" spec="^2.13.0" args=["moment","^2.13.0"]
+65 verbose parsed url Url {
+65 verbose parsed url   protocol: null,
+65 verbose parsed url   slashes: null,
+65 verbose parsed url   auth: null,
+65 verbose parsed url   host: null,
+65 verbose parsed url   port: null,
+65 verbose parsed url   hostname: null,
+65 verbose parsed url   hash: null,
+65 verbose parsed url   search: null,
+65 verbose parsed url   query: null,
+65 verbose parsed url   pathname: '%5E2.13.0',
+65 verbose parsed url   path: '%5E2.13.0',
+65 verbose parsed url   href: '%5E2.13.0' }
+66 verbose addNamed [ 'moment', '^2.13.0' ]
+67 verbose addNamed [ null, '>=2.13.0-0 <3.0.0-0' ]
+68 verbose cache add [ 'ng2-bootstrap@^1.0.16', null ]
+69 verbose cache add name=undefined spec="ng2-bootstrap@^1.0.16" args=["ng2-bootstrap@^1.0.16",null]
+70 verbose parsed url Url {
+70 verbose parsed url   protocol: null,
+70 verbose parsed url   slashes: null,
+70 verbose parsed url   auth: null,
+70 verbose parsed url   host: null,
+70 verbose parsed url   port: null,
+70 verbose parsed url   hostname: null,
+70 verbose parsed url   hash: null,
+70 verbose parsed url   search: null,
+70 verbose parsed url   query: null,
+70 verbose parsed url   pathname: 'ng2-bootstrap@%5E1.0.16',
+70 verbose parsed url   path: 'ng2-bootstrap@%5E1.0.16',
+70 verbose parsed url   href: 'ng2-bootstrap@%5E1.0.16' }
+71 verbose cache add name="ng2-bootstrap" spec="^1.0.16" args=["ng2-bootstrap","^1.0.16"]
+72 verbose parsed url Url {
+72 verbose parsed url   protocol: null,
+72 verbose parsed url   slashes: null,
+72 verbose parsed url   auth: null,
+72 verbose parsed url   host: null,
+72 verbose parsed url   port: null,
+72 verbose parsed url   hostname: null,
+72 verbose parsed url   hash: null,
+72 verbose parsed url   search: null,
+72 verbose parsed url   query: null,
+72 verbose parsed url   pathname: '%5E1.0.16',
+72 verbose parsed url   path: '%5E1.0.16',
+72 verbose parsed url   href: '%5E1.0.16' }
+73 verbose addNamed [ 'ng2-bootstrap', '^1.0.16' ]
+74 verbose addNamed [ null, '>=1.0.16-0 <2.0.0-0' ]
+75 verbose cache add [ 'reflect-metadata@^0.1.3', null ]
+76 verbose cache add name=undefined spec="reflect-metadata@^0.1.3" args=["reflect-metadata@^0.1.3",null]
+77 verbose parsed url Url {
+77 verbose parsed url   protocol: null,
+77 verbose parsed url   slashes: null,
+77 verbose parsed url   auth: null,
+77 verbose parsed url   host: null,
+77 verbose parsed url   port: null,
+77 verbose parsed url   hostname: null,
+77 verbose parsed url   hash: null,
+77 verbose parsed url   search: null,
+77 verbose parsed url   query: null,
+77 verbose parsed url   pathname: 'reflect-metadata@%5E0.1.3',
+77 verbose parsed url   path: 'reflect-metadata@%5E0.1.3',
+77 verbose parsed url   href: 'reflect-metadata@%5E0.1.3' }
+78 verbose cache add name="reflect-metadata" spec="^0.1.3" args=["reflect-metadata","^0.1.3"]
+79 verbose parsed url Url {
+79 verbose parsed url   protocol: null,
+79 verbose parsed url   slashes: null,
+79 verbose parsed url   auth: null,
+79 verbose parsed url   host: null,
+79 verbose parsed url   port: null,
+79 verbose parsed url   hostname: null,
+79 verbose parsed url   hash: null,
+79 verbose parsed url   search: null,
+79 verbose parsed url   query: null,
+79 verbose parsed url   pathname: '%5E0.1.3',
+79 verbose parsed url   path: '%5E0.1.3',
+79 verbose parsed url   href: '%5E0.1.3' }
+80 verbose addNamed [ 'reflect-metadata', '^0.1.3' ]
+81 verbose addNamed [ null, '>=0.1.3-0 <0.2.0-0' ]
+82 verbose cache add [ 'rxjs@5.0.0-beta.8', null ]
+83 verbose cache add name=undefined spec="rxjs@5.0.0-beta.8" args=["rxjs@5.0.0-beta.8",null]
+84 verbose parsed url Url {
+84 verbose parsed url   protocol: null,
+84 verbose parsed url   slashes: null,
+84 verbose parsed url   auth: null,
+84 verbose parsed url   host: null,
+84 verbose parsed url   port: null,
+84 verbose parsed url   hostname: null,
+84 verbose parsed url   hash: null,
+84 verbose parsed url   search: null,
+84 verbose parsed url   query: null,
+84 verbose parsed url   pathname: 'rxjs@5.0.0-beta.8',
+84 verbose parsed url   path: 'rxjs@5.0.0-beta.8',
+84 verbose parsed url   href: 'rxjs@5.0.0-beta.8' }
+85 verbose cache add name="rxjs" spec="5.0.0-beta.8" args=["rxjs","5.0.0-beta.8"]
+86 verbose parsed url Url {
+86 verbose parsed url   protocol: null,
+86 verbose parsed url   slashes: null,
+86 verbose parsed url   auth: null,
+86 verbose parsed url   host: null,
+86 verbose parsed url   port: null,
+86 verbose parsed url   hostname: null,
+86 verbose parsed url   hash: null,
+86 verbose parsed url   search: null,
+86 verbose parsed url   query: null,
+86 verbose parsed url   pathname: '5.0.0-beta.8',
+86 verbose parsed url   path: '5.0.0-beta.8',
+86 verbose parsed url   href: '5.0.0-beta.8' }
+87 verbose addNamed [ 'rxjs', '5.0.0-beta.8' ]
+88 verbose addNamed [ '5.0.0-beta.8', '5.0.0-beta.8' ]
+89 verbose cache add [ 'symbol-observable@^0.2.4', null ]
+90 verbose cache add name=undefined spec="symbol-observable@^0.2.4" args=["symbol-observable@^0.2.4",null]
+91 verbose parsed url Url {
+91 verbose parsed url   protocol: null,
+91 verbose parsed url   slashes: null,
+91 verbose parsed url   auth: null,
+91 verbose parsed url   host: null,
+91 verbose parsed url   port: null,
+91 verbose parsed url   hostname: null,
+91 verbose parsed url   hash: null,
+91 verbose parsed url   search: null,
+91 verbose parsed url   query: null,
+91 verbose parsed url   pathname: 'symbol-observable@%5E0.2.4',
+91 verbose parsed url   path: 'symbol-observable@%5E0.2.4',
+91 verbose parsed url   href: 'symbol-observable@%5E0.2.4' }
+92 verbose cache add name="symbol-observable" spec="^0.2.4" args=["symbol-observable","^0.2.4"]
+93 verbose parsed url Url {
+93 verbose parsed url   protocol: null,
+93 verbose parsed url   slashes: null,
+93 verbose parsed url   auth: null,
+93 verbose parsed url   host: null,
+93 verbose parsed url   port: null,
+93 verbose parsed url   hostname: null,
+93 verbose parsed url   hash: null,
+93 verbose parsed url   search: null,
+93 verbose parsed url   query: null,
+93 verbose parsed url   pathname: '%5E0.2.4',
+93 verbose parsed url   path: '%5E0.2.4',
+93 verbose parsed url   href: '%5E0.2.4' }
+94 verbose addNamed [ 'symbol-observable', '^0.2.4' ]
+95 verbose addNamed [ null, '>=0.2.4-0 <0.3.0-0' ]
+96 verbose cache add [ 'systemjs@0.19.28', null ]
+97 verbose cache add name=undefined spec="systemjs@0.19.28" args=["systemjs@0.19.28",null]
+98 verbose parsed url Url {
+98 verbose parsed url   protocol: null,
+98 verbose parsed url   slashes: null,
+98 verbose parsed url   auth: null,
+98 verbose parsed url   host: null,
+98 verbose parsed url   port: null,
+98 verbose parsed url   hostname: null,
+98 verbose parsed url   hash: null,
+98 verbose parsed url   search: null,
+98 verbose parsed url   query: null,
+98 verbose parsed url   pathname: 'systemjs@0.19.28',
+98 verbose parsed url   path: 'systemjs@0.19.28',
+98 verbose parsed url   href: 'systemjs@0.19.28' }
+99 verbose cache add name="systemjs" spec="0.19.28" args=["systemjs","0.19.28"]
+100 verbose parsed url Url {
+100 verbose parsed url   protocol: null,
+100 verbose parsed url   slashes: null,
+100 verbose parsed url   auth: null,
+100 verbose parsed url   host: null,
+100 verbose parsed url   port: null,
+100 verbose parsed url   hostname: null,
+100 verbose parsed url   hash: null,
+100 verbose parsed url   search: null,
+100 verbose parsed url   query: null,
+100 verbose parsed url   pathname: '0.19.28',
+100 verbose parsed url   path: '0.19.28',
+100 verbose parsed url   href: '0.19.28' }
+101 verbose addNamed [ 'systemjs', '0.19.28' ]
+102 verbose addNamed [ '0.19.28', '0.19.28' ]
+103 verbose cache add [ 'tether@^1.3.2', null ]
+104 verbose cache add name=undefined spec="tether@^1.3.2" args=["tether@^1.3.2",null]
+105 verbose parsed url Url {
+105 verbose parsed url   protocol: null,
+105 verbose parsed url   slashes: null,
+105 verbose parsed url   auth: null,
+105 verbose parsed url   host: null,
+105 verbose parsed url   port: null,
+105 verbose parsed url   hostname: null,
+105 verbose parsed url   hash: null,
+105 verbose parsed url   search: null,
+105 verbose parsed url   query: null,
+105 verbose parsed url   pathname: 'tether@%5E1.3.2',
+105 verbose parsed url   path: 'tether@%5E1.3.2',
+105 verbose parsed url   href: 'tether@%5E1.3.2' }
+106 verbose cache add name="tether" spec="^1.3.2" args=["tether","^1.3.2"]
+107 verbose parsed url Url {
+107 verbose parsed url   protocol: null,
+107 verbose parsed url   slashes: null,
+107 verbose parsed url   auth: null,
+107 verbose parsed url   host: null,
+107 verbose parsed url   port: null,
+107 verbose parsed url   hostname: null,
+107 verbose parsed url   hash: null,
+107 verbose parsed url   search: null,
+107 verbose parsed url   query: null,
+107 verbose parsed url   pathname: '%5E1.3.2',
+107 verbose parsed url   path: '%5E1.3.2',
+107 verbose parsed url   href: '%5E1.3.2' }
+108 verbose addNamed [ 'tether', '^1.3.2' ]
+109 verbose addNamed [ null, '>=1.3.2-0 <2.0.0-0' ]
+110 verbose cache add [ 'zone.js@^0.6.12', null ]
+111 verbose cache add name=undefined spec="zone.js@^0.6.12" args=["zone.js@^0.6.12",null]
+112 verbose parsed url Url {
+112 verbose parsed url   protocol: null,
+112 verbose parsed url   slashes: null,
+112 verbose parsed url   auth: null,
+112 verbose parsed url   host: null,
+112 verbose parsed url   port: null,
+112 verbose parsed url   hostname: null,
+112 verbose parsed url   hash: null,
+112 verbose parsed url   search: null,
+112 verbose parsed url   query: null,
+112 verbose parsed url   pathname: 'zone.js@%5E0.6.12',
+112 verbose parsed url   path: 'zone.js@%5E0.6.12',
+112 verbose parsed url   href: 'zone.js@%5E0.6.12' }
+113 verbose cache add name="zone.js" spec="^0.6.12" args=["zone.js","^0.6.12"]
+114 verbose parsed url Url {
+114 verbose parsed url   protocol: null,
+114 verbose parsed url   slashes: null,
+114 verbose parsed url   auth: null,
+114 verbose parsed url   host: null,
+114 verbose parsed url   port: null,
+114 verbose parsed url   hostname: null,
+114 verbose parsed url   hash: null,
+114 verbose parsed url   search: null,
+114 verbose parsed url   query: null,
+114 verbose parsed url   pathname: '%5E0.6.12',
+114 verbose parsed url   path: '%5E0.6.12',
+114 verbose parsed url   href: '%5E0.6.12' }
+115 verbose addNamed [ 'zone.js', '^0.6.12' ]
+116 verbose addNamed [ null, '>=0.6.12-0 <0.7.0-0' ]
+117 verbose cache add [ 'concurrently@^2.1.0', null ]
+118 verbose cache add name=undefined spec="concurrently@^2.1.0" args=["concurrently@^2.1.0",null]
+119 verbose parsed url Url {
+119 verbose parsed url   protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: 'concurrently@%5E2.1.0',
+119 verbose parsed url   path: 'concurrently@%5E2.1.0',
+119 verbose parsed url   href: 'concurrently@%5E2.1.0' }
+120 verbose cache add name="concurrently" spec="^2.1.0" args=["concurrently","^2.1.0"]
+121 verbose parsed url Url {
+121 verbose parsed url   protocol: null,
+121 verbose parsed url   slashes: null,
+121 verbose parsed url   auth: null,
+121 verbose parsed url   host: null,
+121 verbose parsed url   port: null,
+121 verbose parsed url   hostname: null,
+121 verbose parsed url   hash: null,
+121 verbose parsed url   search: null,
+121 verbose parsed url   query: null,
+121 verbose parsed url   pathname: '%5E2.1.0',
+121 verbose parsed url   path: '%5E2.1.0',
+121 verbose parsed url   href: '%5E2.1.0' }
+122 verbose addNamed [ 'concurrently', '^2.1.0' ]
+123 verbose addNamed [ null, '>=2.1.0-0 <3.0.0-0' ]
+124 verbose cache add [ 'del@2.2.0', null ]
+125 verbose cache add name=undefined spec="del@2.2.0" args=["del@2.2.0",null]
+126 verbose parsed url Url {
+126 verbose parsed url   protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'del@2.2.0',
+126 verbose parsed url   path: 'del@2.2.0',
+126 verbose parsed url   href: 'del@2.2.0' }
+127 verbose cache add name="del" spec="2.2.0" args=["del","2.2.0"]
+128 verbose parsed url Url {
+128 verbose parsed url   protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: '2.2.0',
+128 verbose parsed url   path: '2.2.0',
+128 verbose parsed url   href: '2.2.0' }
+129 verbose addNamed [ 'del', '2.2.0' ]
+130 verbose addNamed [ '2.2.0', '2.2.0' ]
+131 verbose cache add [ 'gulp@^3.9.1', null ]
+132 verbose cache add name=undefined spec="gulp@^3.9.1" args=["gulp@^3.9.1",null]
+133 verbose parsed url Url {
+133 verbose parsed url   protocol: null,
+133 verbose parsed url   slashes: null,
+133 verbose parsed url   auth: null,
+133 verbose parsed url   host: null,
+133 verbose parsed url   port: null,
+133 verbose parsed url   hostname: null,
+133 verbose parsed url   hash: null,
+133 verbose parsed url   search: null,
+133 verbose parsed url   query: null,
+133 verbose parsed url   pathname: 'gulp@%5E3.9.1',
+133 verbose parsed url   path: 'gulp@%5E3.9.1',
+133 verbose parsed url   href: 'gulp@%5E3.9.1' }
+134 verbose cache add name="gulp" spec="^3.9.1" args=["gulp","^3.9.1"]
+135 verbose parsed url Url {
+135 verbose parsed url   protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: '%5E3.9.1',
+135 verbose parsed url   path: '%5E3.9.1',
+135 verbose parsed url   href: '%5E3.9.1' }
+136 verbose addNamed [ 'gulp', '^3.9.1' ]
+137 verbose addNamed [ null, '>=3.9.1-0 <4.0.0-0' ]
+138 verbose cache add [ 'gulp-cli@^1.2.1', null ]
+139 verbose cache add name=undefined spec="gulp-cli@^1.2.1" args=["gulp-cli@^1.2.1",null]
+140 verbose parsed url Url {
+140 verbose parsed url   protocol: null,
+140 verbose parsed url   slashes: null,
+140 verbose parsed url   auth: null,
+140 verbose parsed url   host: null,
+140 verbose parsed url   port: null,
+140 verbose parsed url   hostname: null,
+140 verbose parsed url   hash: null,
+140 verbose parsed url   search: null,
+140 verbose parsed url   query: null,
+140 verbose parsed url   pathname: 'gulp-cli@%5E1.2.1',
+140 verbose parsed url   path: 'gulp-cli@%5E1.2.1',
+140 verbose parsed url   href: 'gulp-cli@%5E1.2.1' }
+141 verbose cache add name="gulp-cli" spec="^1.2.1" args=["gulp-cli","^1.2.1"]
+142 verbose parsed url Url {
+142 verbose parsed url   protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: '%5E1.2.1',
+142 verbose parsed url   path: '%5E1.2.1',
+142 verbose parsed url   href: '%5E1.2.1' }
+143 verbose addNamed [ 'gulp-cli', '^1.2.1' ]
+144 verbose addNamed [ null, '>=1.2.1-0 <2.0.0-0' ]
+145 verbose cache add [ 'gulp-autoprefixer@3.1.0', null ]
+146 verbose cache add name=undefined spec="gulp-autoprefixer@3.1.0" args=["gulp-autoprefixer@3.1.0",null]
+147 verbose parsed url Url {
+147 verbose parsed url   protocol: null,
+147 verbose parsed url   slashes: null,
+147 verbose parsed url   auth: null,
+147 verbose parsed url   host: null,
+147 verbose parsed url   port: null,
+147 verbose parsed url   hostname: null,
+147 verbose parsed url   hash: null,
+147 verbose parsed url   search: null,
+147 verbose parsed url   query: null,
+147 verbose parsed url   pathname: 'gulp-autoprefixer@3.1.0',
+147 verbose parsed url   path: 'gulp-autoprefixer@3.1.0',
+147 verbose parsed url   href: 'gulp-autoprefixer@3.1.0' }
+148 verbose cache add name="gulp-autoprefixer" spec="3.1.0" args=["gulp-autoprefixer","3.1.0"]
+149 verbose parsed url Url {
+149 verbose parsed url   protocol: null,
+149 verbose parsed url   slashes: null,
+149 verbose parsed url   auth: null,
+149 verbose parsed url   host: null,
+149 verbose parsed url   port: null,
+149 verbose parsed url   hostname: null,
+149 verbose parsed url   hash: null,
+149 verbose parsed url   search: null,
+149 verbose parsed url   query: null,
+149 verbose parsed url   pathname: '3.1.0',
+149 verbose parsed url   path: '3.1.0',
+149 verbose parsed url   href: '3.1.0' }
+150 verbose addNamed [ 'gulp-autoprefixer', '3.1.0' ]
+151 verbose addNamed [ '3.1.0', '3.1.0' ]
+152 verbose cache add [ 'gulp-sass@^2.3.1', null ]
+153 verbose cache add name=undefined spec="gulp-sass@^2.3.1" args=["gulp-sass@^2.3.1",null]
+154 verbose parsed url Url {
+154 verbose parsed url   protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: 'gulp-sass@%5E2.3.1',
+154 verbose parsed url   path: 'gulp-sass@%5E2.3.1',
+154 verbose parsed url   href: 'gulp-sass@%5E2.3.1' }
+155 verbose cache add name="gulp-sass" spec="^2.3.1" args=["gulp-sass","^2.3.1"]
+156 verbose parsed url Url {
+156 verbose parsed url   protocol: null,
+156 verbose parsed url   slashes: null,
+156 verbose parsed url   auth: null,
+156 verbose parsed url   host: null,
+156 verbose parsed url   port: null,
+156 verbose parsed url   hostname: null,
+156 verbose parsed url   hash: null,
+156 verbose parsed url   search: null,
+156 verbose parsed url   query: null,
+156 verbose parsed url   pathname: '%5E2.3.1',
+156 verbose parsed url   path: '%5E2.3.1',
+156 verbose parsed url   href: '%5E2.3.1' }
+157 verbose addNamed [ 'gulp-sass', '^2.3.1' ]
+158 verbose addNamed [ null, '>=2.3.1-0 <3.0.0-0' ]
+159 verbose cache add [ 'gulp-typescript@2.13.4', null ]
+160 verbose cache add name=undefined spec="gulp-typescript@2.13.4" args=["gulp-typescript@2.13.4",null]
+161 verbose parsed url Url {
+161 verbose parsed url   protocol: null,
+161 verbose parsed url   slashes: null,
+161 verbose parsed url   auth: null,
+161 verbose parsed url   host: null,
+161 verbose parsed url   port: null,
+161 verbose parsed url   hostname: null,
+161 verbose parsed url   hash: null,
+161 verbose parsed url   search: null,
+161 verbose parsed url   query: null,
+161 verbose parsed url   pathname: 'gulp-typescript@2.13.4',
+161 verbose parsed url   path: 'gulp-typescript@2.13.4',
+161 verbose parsed url   href: 'gulp-typescript@2.13.4' }
+162 verbose cache add name="gulp-typescript" spec="2.13.4" args=["gulp-typescript","2.13.4"]
+163 verbose parsed url Url {
+163 verbose parsed url   protocol: null,
+163 verbose parsed url   slashes: null,
+163 verbose parsed url   auth: null,
+163 verbose parsed url   host: null,
+163 verbose parsed url   port: null,
+163 verbose parsed url   hostname: null,
+163 verbose parsed url   hash: null,
+163 verbose parsed url   search: null,
+163 verbose parsed url   query: null,
+163 verbose parsed url   pathname: '2.13.4',
+163 verbose parsed url   path: '2.13.4',
+163 verbose parsed url   href: '2.13.4' }
+164 verbose addNamed [ 'gulp-typescript', '2.13.4' ]
+165 verbose addNamed [ '2.13.4', '2.13.4' ]
+166 verbose cache add [ 'jasmine-core@2.4.1', null ]
+167 verbose cache add name=undefined spec="jasmine-core@2.4.1" args=["jasmine-core@2.4.1",null]
+168 verbose parsed url Url {
+168 verbose parsed url   protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: 'jasmine-core@2.4.1',
+168 verbose parsed url   path: 'jasmine-core@2.4.1',
+168 verbose parsed url   href: 'jasmine-core@2.4.1' }
+169 verbose cache add name="jasmine-core" spec="2.4.1" args=["jasmine-core","2.4.1"]
+170 verbose parsed url Url {
+170 verbose parsed url   protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: '2.4.1',
+170 verbose parsed url   path: '2.4.1',
+170 verbose parsed url   href: '2.4.1' }
+171 verbose addNamed [ 'jasmine-core', '2.4.1' ]
+172 verbose addNamed [ '2.4.1', '2.4.1' ]
+173 verbose cache add [ 'lite-server@^2.2.0', null ]
+174 verbose cache add name=undefined spec="lite-server@^2.2.0" args=["lite-server@^2.2.0",null]
+175 verbose parsed url Url {
+175 verbose parsed url   protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: 'lite-server@%5E2.2.0',
+175 verbose parsed url   path: 'lite-server@%5E2.2.0',
+175 verbose parsed url   href: 'lite-server@%5E2.2.0' }
+176 verbose cache add name="lite-server" spec="^2.2.0" args=["lite-server","^2.2.0"]
+177 verbose parsed url Url {
+177 verbose parsed url   protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: '%5E2.2.0',
+177 verbose parsed url   path: '%5E2.2.0',
+177 verbose parsed url   href: '%5E2.2.0' }
+178 verbose addNamed [ 'lite-server', '^2.2.0' ]
+179 verbose addNamed [ null, '>=2.2.0-0 <3.0.0-0' ]
+180 verbose cache add [ 'typings@^1.0.4', null ]
+181 verbose cache add name=undefined spec="typings@^1.0.4" args=["typings@^1.0.4",null]
+182 verbose parsed url Url {
+182 verbose parsed url   protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'typings@%5E1.0.4',
+182 verbose parsed url   path: 'typings@%5E1.0.4',
+182 verbose parsed url   href: 'typings@%5E1.0.4' }
+183 verbose cache add name="typings" spec="^1.0.4" args=["typings","^1.0.4"]
+184 verbose parsed url Url {
+184 verbose parsed url   protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: '%5E1.0.4',
+184 verbose parsed url   path: '%5E1.0.4',
+184 verbose parsed url   href: '%5E1.0.4' }
+185 verbose addNamed [ 'typings', '^1.0.4' ]
+186 verbose addNamed [ null, '>=1.0.4-0 <2.0.0-0' ]
+187 verbose cache add [ '@angular/common@2.0.0-rc.1', null ]
+188 verbose cache add name=undefined spec="@angular/common@2.0.0-rc.1" args=["@angular/common@2.0.0-rc.1",null]
+189 verbose parsed url Url {
+189 verbose parsed url   protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '@angular/common@2.0.0-rc.1',
+189 verbose parsed url   path: '@angular/common@2.0.0-rc.1',
+189 verbose parsed url   href: '@angular/common@2.0.0-rc.1' }
+190 verbose cache add [ '@angular/compiler@2.0.0-rc.1', null ]
+191 verbose cache add name=undefined spec="@angular/compiler@2.0.0-rc.1" args=["@angular/compiler@2.0.0-rc.1",null]
+192 verbose parsed url Url {
+192 verbose parsed url   protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: '@angular/compiler@2.0.0-rc.1',
+192 verbose parsed url   path: '@angular/compiler@2.0.0-rc.1',
+192 verbose parsed url   href: '@angular/compiler@2.0.0-rc.1' }
+193 verbose cache add name="" spec="angular/core@2.0.0-rc.1" args=["","angular/core@2.0.0-rc.1"]
+194 verbose parsed url Url {
+194 verbose parsed url   protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: 'angular/core@2.0.0-rc.1',
+194 verbose parsed url   path: 'angular/core@2.0.0-rc.1',
+194 verbose parsed url   href: 'angular/core@2.0.0-rc.1' }
+195 verbose cache add name="" spec="angular/http@2.0.0-rc.1" args=["","angular/http@2.0.0-rc.1"]
+196 verbose parsed url Url {
+196 verbose parsed url   protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: 'angular/http@2.0.0-rc.1',
+196 verbose parsed url   path: 'angular/http@2.0.0-rc.1',
+196 verbose parsed url   href: 'angular/http@2.0.0-rc.1' }
+197 verbose cache add name="" spec="angular/platform-browser@2.0.0-rc.1" args=["","angular/platform-browser@2.0.0-rc.1"]
+198 verbose parsed url Url {
+198 verbose parsed url   protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'angular/platform-browser@2.0.0-rc.1',
+198 verbose parsed url   path: 'angular/platform-browser@2.0.0-rc.1',
+198 verbose parsed url   href: 'angular/platform-browser@2.0.0-rc.1' }
+199 verbose cache add name="" spec="angular/platform-browser-dynamic@2.0.0-rc.1" args=["","angular/platform-browser-dynamic@2.0.0-rc.1"]
+200 verbose parsed url Url {
+200 verbose parsed url   protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: 'angular/platform-browser-dynamic@2.0.0-rc.1',
+200 verbose parsed url   path: 'angular/platform-browser-dynamic@2.0.0-rc.1',
+200 verbose parsed url   href: 'angular/platform-browser-dynamic@2.0.0-rc.1' }
+201 verbose cache add name="" spec="angular/router@2.0.0-rc.1" args=["","angular/router@2.0.0-rc.1"]
+202 verbose parsed url Url {
+202 verbose parsed url   protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: 'angular/router@2.0.0-rc.1',
+202 verbose parsed url   path: 'angular/router@2.0.0-rc.1',
+202 verbose parsed url   href: 'angular/router@2.0.0-rc.1' }
+203 verbose cache add name="" spec="angular/upgrade@2.0.0-rc.1" args=["","angular/upgrade@2.0.0-rc.1"]
+204 verbose parsed url Url {
+204 verbose parsed url   protocol: null,
+204 verbose parsed url   slashes: null,
+204 verbose parsed url   auth: null,
+204 verbose parsed url   host: null,
+204 verbose parsed url   port: null,
+204 verbose parsed url   hostname: null,
+204 verbose parsed url   hash: null,
+204 verbose parsed url   search: null,
+204 verbose parsed url   query: null,
+204 verbose parsed url   pathname: 'angular/upgrade@2.0.0-rc.1',
+204 verbose parsed url   path: 'angular/upgrade@2.0.0-rc.1',
+204 verbose parsed url   href: 'angular/upgrade@2.0.0-rc.1' }
+205 silly lockFile d049cc02-ngular2-in-memory-web-api-0-0-10 angular2-in-memory-web-api@0.0.10
+206 verbose lock angular2-in-memory-web-api@0.0.10 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\d049cc02-ngular2-in-memory-web-api-0-0-10.lock
+207 silly lockFile 42876bd2-bootstrap-4-0-0-alpha-2 bootstrap@^4.0.0-alpha.2
+208 verbose lock bootstrap@^4.0.0-alpha.2 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\42876bd2-bootstrap-4-0-0-alpha-2.lock
+209 silly lockFile 1d0beeb5-es6-shim-0-35-1 es6-shim@^0.35.1
+210 verbose lock es6-shim@^0.35.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\1d0beeb5-es6-shim-0-35-1.lock
+211 silly lockFile bddb65f6-font-awesome-4-6-1 font-awesome@^4.6.1
+212 verbose lock font-awesome@^4.6.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\bddb65f6-font-awesome-4-6-1.lock
+213 silly lockFile 765980b0-jquery-2-2-4 jquery@^2.2.4
+214 verbose lock jquery@^2.2.4 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\765980b0-jquery-2-2-4.lock
+215 silly lockFile c11e97af-moment-2-13-0 moment@^2.13.0
+216 verbose lock moment@^2.13.0 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\c11e97af-moment-2-13-0.lock
+217 silly lockFile 7c21495e-ng2-bootstrap-1-0-16 ng2-bootstrap@^1.0.16
+218 verbose lock ng2-bootstrap@^1.0.16 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\7c21495e-ng2-bootstrap-1-0-16.lock
+219 silly lockFile e82b3467-reflect-metadata-0-1-3 reflect-metadata@^0.1.3
+220 verbose lock reflect-metadata@^0.1.3 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\e82b3467-reflect-metadata-0-1-3.lock
+221 silly lockFile 7e75b609-rxjs-5-0-0-beta-8 rxjs@5.0.0-beta.8
+222 verbose lock rxjs@5.0.0-beta.8 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\7e75b609-rxjs-5-0-0-beta-8.lock
+223 silly lockFile 5ddde398-symbol-observable-0-2-4 symbol-observable@^0.2.4
+224 verbose lock symbol-observable@^0.2.4 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\5ddde398-symbol-observable-0-2-4.lock
+225 silly lockFile 8d363d61-systemjs-0-19-28 systemjs@0.19.28
+226 verbose lock systemjs@0.19.28 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\8d363d61-systemjs-0-19-28.lock
+227 silly lockFile 541942c8-tether-1-3-2 tether@^1.3.2
+228 verbose lock tether@^1.3.2 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\541942c8-tether-1-3-2.lock
+229 silly lockFile 77421572-zone-js-0-6-12 zone.js@^0.6.12
+230 verbose lock zone.js@^0.6.12 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\77421572-zone-js-0-6-12.lock
+231 silly lockFile f3a11e1d-concurrently-2-1-0 concurrently@^2.1.0
+232 verbose lock concurrently@^2.1.0 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\f3a11e1d-concurrently-2-1-0.lock
+233 silly lockFile aed99758-del-2-2-0 del@2.2.0
+234 verbose lock del@2.2.0 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\aed99758-del-2-2-0.lock
+235 silly lockFile e5c114fc-gulp-3-9-1 gulp@^3.9.1
+236 verbose lock gulp@^3.9.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\e5c114fc-gulp-3-9-1.lock
+237 silly lockFile 62679f3d-gulp-cli-1-2-1 gulp-cli@^1.2.1
+238 verbose lock gulp-cli@^1.2.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\62679f3d-gulp-cli-1-2-1.lock
+239 silly lockFile 1e11cca8-gulp-autoprefixer-3-1-0 gulp-autoprefixer@3.1.0
+240 verbose lock gulp-autoprefixer@3.1.0 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\1e11cca8-gulp-autoprefixer-3-1-0.lock
+241 silly lockFile c42be1d7-gulp-sass-2-3-1 gulp-sass@^2.3.1
+242 verbose lock gulp-sass@^2.3.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\c42be1d7-gulp-sass-2-3-1.lock
+243 silly lockFile cd8e3d13-gulp-typescript-2-13-4 gulp-typescript@2.13.4
+244 verbose lock gulp-typescript@2.13.4 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\cd8e3d13-gulp-typescript-2-13-4.lock
+245 silly lockFile a93289d2-jasmine-core-2-4-1 jasmine-core@2.4.1
+246 verbose lock jasmine-core@2.4.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\a93289d2-jasmine-core-2-4-1.lock
+247 silly lockFile 492ac1bf-lite-server-2-2-0 lite-server@^2.2.0
+248 verbose lock lite-server@^2.2.0 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\492ac1bf-lite-server-2-2-0.lock
+249 silly lockFile 54ab8877-typings-1-0-4 typings@^1.0.4
+250 verbose lock typings@^1.0.4 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\54ab8877-typings-1-0-4.lock
+251 verbose cache add name="" spec="angular/common@2.0.0-rc.1" args=["","angular/common@2.0.0-rc.1"]
+252 verbose parsed url Url {
+252 verbose parsed url   protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'angular/common@2.0.0-rc.1',
+252 verbose parsed url   path: 'angular/common@2.0.0-rc.1',
+252 verbose parsed url   href: 'angular/common@2.0.0-rc.1' }
+253 verbose cache add name="" spec="angular/compiler@2.0.0-rc.1" args=["","angular/compiler@2.0.0-rc.1"]
+254 verbose parsed url Url {
+254 verbose parsed url   protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: 'angular/compiler@2.0.0-rc.1',
+254 verbose parsed url   path: 'angular/compiler@2.0.0-rc.1',
+254 verbose parsed url   href: 'angular/compiler@2.0.0-rc.1' }
+255 verbose cache add name="angular/core" spec="2.0.0-rc.1" args=["angular/core","2.0.0-rc.1"]
+256 verbose parsed url Url {
+256 verbose parsed url   protocol: null,
+256 verbose parsed url   slashes: null,
+256 verbose parsed url   auth: null,
+256 verbose parsed url   host: null,
+256 verbose parsed url   port: null,
+256 verbose parsed url   hostname: null,
+256 verbose parsed url   hash: null,
+256 verbose parsed url   search: null,
+256 verbose parsed url   query: null,
+256 verbose parsed url   pathname: '2.0.0-rc.1',
+256 verbose parsed url   path: '2.0.0-rc.1',
+256 verbose parsed url   href: '2.0.0-rc.1' }
+257 verbose addNamed [ 'angular/core', '2.0.0-rc.1' ]
+258 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+259 silly lockFile b50e344d-angular-core-2-0-0-rc-1 angular/core@2.0.0-rc.1
+260 verbose lock angular/core@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\b50e344d-angular-core-2-0-0-rc-1.lock
+261 verbose cache add name="angular/http" spec="2.0.0-rc.1" args=["angular/http","2.0.0-rc.1"]
+262 verbose parsed url Url {
+262 verbose parsed url   protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: '2.0.0-rc.1',
+262 verbose parsed url   path: '2.0.0-rc.1',
+262 verbose parsed url   href: '2.0.0-rc.1' }
+263 verbose addNamed [ 'angular/http', '2.0.0-rc.1' ]
+264 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+265 silly lockFile 2763ec9f-angular-http-2-0-0-rc-1 angular/http@2.0.0-rc.1
+266 verbose lock angular/http@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\2763ec9f-angular-http-2-0-0-rc-1.lock
+267 verbose cache add name="angular/platform-browser" spec="2.0.0-rc.1" args=["angular/platform-browser","2.0.0-rc.1"]
+268 verbose parsed url Url {
+268 verbose parsed url   protocol: null,
+268 verbose parsed url   slashes: null,
+268 verbose parsed url   auth: null,
+268 verbose parsed url   host: null,
+268 verbose parsed url   port: null,
+268 verbose parsed url   hostname: null,
+268 verbose parsed url   hash: null,
+268 verbose parsed url   search: null,
+268 verbose parsed url   query: null,
+268 verbose parsed url   pathname: '2.0.0-rc.1',
+268 verbose parsed url   path: '2.0.0-rc.1',
+268 verbose parsed url   href: '2.0.0-rc.1' }
+269 verbose addNamed [ 'angular/platform-browser', '2.0.0-rc.1' ]
+270 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+271 silly lockFile 05dd607d-ular-platform-browser-2-0-0-rc-1 angular/platform-browser@2.0.0-rc.1
+272 verbose lock angular/platform-browser@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\05dd607d-ular-platform-browser-2-0-0-rc-1.lock
+273 verbose cache add name="angular/platform-browser-dynamic" spec="2.0.0-rc.1" args=["angular/platform-browser-dynamic","2.0.0-rc.1"]
+274 verbose parsed url Url {
+274 verbose parsed url   protocol: null,
+274 verbose parsed url   slashes: null,
+274 verbose parsed url   auth: null,
+274 verbose parsed url   host: null,
+274 verbose parsed url   port: null,
+274 verbose parsed url   hostname: null,
+274 verbose parsed url   hash: null,
+274 verbose parsed url   search: null,
+274 verbose parsed url   query: null,
+274 verbose parsed url   pathname: '2.0.0-rc.1',
+274 verbose parsed url   path: '2.0.0-rc.1',
+274 verbose parsed url   href: '2.0.0-rc.1' }
+275 verbose addNamed [ 'angular/platform-browser-dynamic', '2.0.0-rc.1' ]
+276 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+277 silly lockFile f43cd080-tform-browser-dynamic-2-0-0-rc-1 angular/platform-browser-dynamic@2.0.0-rc.1
+278 verbose lock angular/platform-browser-dynamic@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\f43cd080-tform-browser-dynamic-2-0-0-rc-1.lock
+279 verbose cache add name="angular/router" spec="2.0.0-rc.1" args=["angular/router","2.0.0-rc.1"]
+280 verbose parsed url Url {
+280 verbose parsed url   protocol: null,
+280 verbose parsed url   slashes: null,
+280 verbose parsed url   auth: null,
+280 verbose parsed url   host: null,
+280 verbose parsed url   port: null,
+280 verbose parsed url   hostname: null,
+280 verbose parsed url   hash: null,
+280 verbose parsed url   search: null,
+280 verbose parsed url   query: null,
+280 verbose parsed url   pathname: '2.0.0-rc.1',
+280 verbose parsed url   path: '2.0.0-rc.1',
+280 verbose parsed url   href: '2.0.0-rc.1' }
+281 verbose addNamed [ 'angular/router', '2.0.0-rc.1' ]
+282 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+283 silly lockFile e6ea399e-angular-router-2-0-0-rc-1 angular/router@2.0.0-rc.1
+284 verbose lock angular/router@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\e6ea399e-angular-router-2-0-0-rc-1.lock
+285 verbose cache add name="angular/upgrade" spec="2.0.0-rc.1" args=["angular/upgrade","2.0.0-rc.1"]
+286 verbose parsed url Url {
+286 verbose parsed url   protocol: null,
+286 verbose parsed url   slashes: null,
+286 verbose parsed url   auth: null,
+286 verbose parsed url   host: null,
+286 verbose parsed url   port: null,
+286 verbose parsed url   hostname: null,
+286 verbose parsed url   hash: null,
+286 verbose parsed url   search: null,
+286 verbose parsed url   query: null,
+286 verbose parsed url   pathname: '2.0.0-rc.1',
+286 verbose parsed url   path: '2.0.0-rc.1',
+286 verbose parsed url   href: '2.0.0-rc.1' }
+287 verbose addNamed [ 'angular/upgrade', '2.0.0-rc.1' ]
+288 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+289 silly lockFile eb01fcc2-angular-upgrade-2-0-0-rc-1 angular/upgrade@2.0.0-rc.1
+290 verbose lock angular/upgrade@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\eb01fcc2-angular-upgrade-2-0-0-rc-1.lock
+291 verbose cache add name="angular/common" spec="2.0.0-rc.1" args=["angular/common","2.0.0-rc.1"]
+292 verbose parsed url Url {
+292 verbose parsed url   protocol: null,
+292 verbose parsed url   slashes: null,
+292 verbose parsed url   auth: null,
+292 verbose parsed url   host: null,
+292 verbose parsed url   port: null,
+292 verbose parsed url   hostname: null,
+292 verbose parsed url   hash: null,
+292 verbose parsed url   search: null,
+292 verbose parsed url   query: null,
+292 verbose parsed url   pathname: '2.0.0-rc.1',
+292 verbose parsed url   path: '2.0.0-rc.1',
+292 verbose parsed url   href: '2.0.0-rc.1' }
+293 verbose addNamed [ 'angular/common', '2.0.0-rc.1' ]
+294 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+295 silly lockFile e3e65f6f-angular-common-2-0-0-rc-1 angular/common@2.0.0-rc.1
+296 verbose lock angular/common@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\e3e65f6f-angular-common-2-0-0-rc-1.lock
+297 verbose cache add name="angular/compiler" spec="2.0.0-rc.1" args=["angular/compiler","2.0.0-rc.1"]
+298 verbose parsed url Url {
+298 verbose parsed url   protocol: null,
+298 verbose parsed url   slashes: null,
+298 verbose parsed url   auth: null,
+298 verbose parsed url   host: null,
+298 verbose parsed url   port: null,
+298 verbose parsed url   hostname: null,
+298 verbose parsed url   hash: null,
+298 verbose parsed url   search: null,
+298 verbose parsed url   query: null,
+298 verbose parsed url   pathname: '2.0.0-rc.1',
+298 verbose parsed url   path: '2.0.0-rc.1',
+298 verbose parsed url   href: '2.0.0-rc.1' }
+299 verbose addNamed [ 'angular/compiler', '2.0.0-rc.1' ]
+300 verbose addNamed [ '2.0.0-rc.1', '2.0.0-rc.1' ]
+301 silly lockFile e76cb3f6-angular-compiler-2-0-0-rc-1 angular/compiler@2.0.0-rc.1
+302 verbose lock angular/compiler@2.0.0-rc.1 C:\Users\KlyubanovI\AppData\Roaming\npm-cache\e76cb3f6-angular-compiler-2-0-0-rc-1.lock
+303 silly addNameRange { name: 'bootstrap',
+303 silly addNameRange   range: '>=4.0.0-alpha.2 <5.0.0-0',
+303 silly addNameRange   hasData: false }
+304 silly addNameRange { name: 'es6-shim',
+304 silly addNameRange   range: '>=0.35.1-0 <0.36.0-0',
+304 silly addNameRange   hasData: false }
+305 silly addNameRange { name: 'jquery', range: '>=2.2.4-0 <3.0.0-0', hasData: false }
+306 silly addNameRange { name: 'font-awesome',
+306 silly addNameRange   range: '>=4.6.1-0 <5.0.0-0',
+306 silly addNameRange   hasData: false }
+307 silly addNameRange { name: 'moment', range: '>=2.13.0-0 <3.0.0-0', hasData: false }
+308 silly addNameRange { name: 'ng2-bootstrap',
+308 silly addNameRange   range: '>=1.0.16-0 <2.0.0-0',
+308 silly addNameRange   hasData: false }
+309 silly addNameRange { name: 'reflect-metadata',
+309 silly addNameRange   range: '>=0.1.3-0 <0.2.0-0',
+309 silly addNameRange   hasData: false }
+310 silly addNameRange { name: 'symbol-observable',
+310 silly addNameRange   range: '>=0.2.4-0 <0.3.0-0',
+310 silly addNameRange   hasData: false }
+311 silly addNameRange { name: 'tether', range: '>=1.3.2-0 <2.0.0-0', hasData: false }
+312 silly addNameRange { name: 'zone.js', range: '>=0.6.12-0 <0.7.0-0', hasData: false }
+313 silly addNameRange { name: 'concurrently',
+313 silly addNameRange   range: '>=2.1.0-0 <3.0.0-0',
+313 silly addNameRange   hasData: false }
+314 silly addNameRange { name: 'gulp', range: '>=3.9.1-0 <4.0.0-0', hasData: false }
+315 silly addNameRange { name: 'gulp-cli', range: '>=1.2.1-0 <2.0.0-0', hasData: false }
+316 silly addNameRange { name: 'gulp-sass',
+316 silly addNameRange   range: '>=2.3.1-0 <3.0.0-0',
+316 silly addNameRange   hasData: false }
+317 silly addNameRange { name: 'lite-server',
+317 silly addNameRange   range: '>=2.2.0-0 <3.0.0-0',
+317 silly addNameRange   hasData: false }
+318 silly addNameRange { name: 'typings', range: '>=1.0.4-0 <2.0.0-0', hasData: false }
+319 verbose url raw angular2-in-memory-web-api
+320 verbose url resolving [ 'http://registry.npmjs.org/', './angular2-in-memory-web-api' ]
+321 verbose url resolved http://registry.npmjs.org/angular2-in-memory-web-api
+322 info trying registry request attempt 1 at 14:26:57
+323 http GET http://registry.npmjs.org/angular2-in-memory-web-api
+324 verbose url raw bootstrap
+325 verbose url resolving [ 'http://registry.npmjs.org/', './bootstrap' ]
+326 verbose url resolved http://registry.npmjs.org/bootstrap
+327 info trying registry request attempt 1 at 14:26:57
+328 http GET http://registry.npmjs.org/bootstrap
+329 verbose url raw es6-shim
+330 verbose url resolving [ 'http://registry.npmjs.org/', './es6-shim' ]
+331 verbose url resolved http://registry.npmjs.org/es6-shim
+332 info trying registry request attempt 1 at 14:26:57
+333 http GET http://registry.npmjs.org/es6-shim
+334 verbose url raw jquery
+335 verbose url resolving [ 'http://registry.npmjs.org/', './jquery' ]
+336 verbose url resolved http://registry.npmjs.org/jquery
+337 info trying registry request attempt 1 at 14:26:57
+338 http GET http://registry.npmjs.org/jquery
+339 verbose url raw font-awesome
+340 verbose url resolving [ 'http://registry.npmjs.org/', './font-awesome' ]
+341 verbose url resolved http://registry.npmjs.org/font-awesome
+342 info trying registry request attempt 1 at 14:26:57
+343 http GET http://registry.npmjs.org/font-awesome
+344 verbose url raw moment
+345 verbose url resolving [ 'http://registry.npmjs.org/', './moment' ]
+346 verbose url resolved http://registry.npmjs.org/moment
+347 info trying registry request attempt 1 at 14:26:57
+348 http GET http://registry.npmjs.org/moment
+349 verbose url raw ng2-bootstrap
+350 verbose url resolving [ 'http://registry.npmjs.org/', './ng2-bootstrap' ]
+351 verbose url resolved http://registry.npmjs.org/ng2-bootstrap
+352 info trying registry request attempt 1 at 14:26:57
+353 http GET http://registry.npmjs.org/ng2-bootstrap
+354 verbose url raw reflect-metadata
+355 verbose url resolving [ 'http://registry.npmjs.org/', './reflect-metadata' ]
+356 verbose url resolved http://registry.npmjs.org/reflect-metadata
+357 info trying registry request attempt 1 at 14:26:57
+358 http GET http://registry.npmjs.org/reflect-metadata
+359 verbose url raw rxjs
+360 verbose url resolving [ 'http://registry.npmjs.org/', './rxjs' ]
+361 verbose url resolved http://registry.npmjs.org/rxjs
+362 info trying registry request attempt 1 at 14:26:57
+363 http GET http://registry.npmjs.org/rxjs
+364 verbose url raw symbol-observable
+365 verbose url resolving [ 'http://registry.npmjs.org/', './symbol-observable' ]
+366 verbose url resolved http://registry.npmjs.org/symbol-observable
+367 info trying registry request attempt 1 at 14:26:57
+368 http GET http://registry.npmjs.org/symbol-observable
+369 verbose url raw systemjs
+370 verbose url resolving [ 'http://registry.npmjs.org/', './systemjs' ]
+371 verbose url resolved http://registry.npmjs.org/systemjs
+372 info trying registry request attempt 1 at 14:26:57
+373 http GET http://registry.npmjs.org/systemjs
+374 verbose url raw tether
+375 verbose url resolving [ 'http://registry.npmjs.org/', './tether' ]
+376 verbose url resolved http://registry.npmjs.org/tether
+377 info trying registry request attempt 1 at 14:26:57
+378 http GET http://registry.npmjs.org/tether
+379 verbose url raw zone.js
+380 verbose url resolving [ 'http://registry.npmjs.org/', './zone.js' ]
+381 verbose url resolved http://registry.npmjs.org/zone.js
+382 info trying registry request attempt 1 at 14:26:57
+383 http GET http://registry.npmjs.org/zone.js
+384 verbose url raw concurrently
+385 verbose url resolving [ 'http://registry.npmjs.org/', './concurrently' ]
+386 verbose url resolved http://registry.npmjs.org/concurrently
+387 info trying registry request attempt 1 at 14:26:57
+388 http GET http://registry.npmjs.org/concurrently
+389 verbose url raw del
+390 verbose url resolving [ 'http://registry.npmjs.org/', './del' ]
+391 verbose url resolved http://registry.npmjs.org/del
+392 info trying registry request attempt 1 at 14:26:57
+393 http GET http://registry.npmjs.org/del
+394 verbose url raw gulp
+395 verbose url resolving [ 'http://registry.npmjs.org/', './gulp' ]
+396 verbose url resolved http://registry.npmjs.org/gulp
+397 info trying registry request attempt 1 at 14:26:57
+398 http GET http://registry.npmjs.org/gulp
+399 verbose url raw gulp-cli
+400 verbose url resolving [ 'http://registry.npmjs.org/', './gulp-cli' ]
+401 verbose url resolved http://registry.npmjs.org/gulp-cli
+402 info trying registry request attempt 1 at 14:26:57
+403 http GET http://registry.npmjs.org/gulp-cli
+404 verbose url raw gulp-autoprefixer
+405 verbose url resolving [ 'http://registry.npmjs.org/', './gulp-autoprefixer' ]
+406 verbose url resolved http://registry.npmjs.org/gulp-autoprefixer
+407 info trying registry request attempt 1 at 14:26:57
+408 http GET http://registry.npmjs.org/gulp-autoprefixer
+409 verbose url raw gulp-sass
+410 verbose url resolving [ 'http://registry.npmjs.org/', './gulp-sass' ]
+411 verbose url resolved http://registry.npmjs.org/gulp-sass
+412 info trying registry request attempt 1 at 14:26:57
+413 http GET http://registry.npmjs.org/gulp-sass
+414 verbose url raw gulp-typescript
+415 verbose url resolving [ 'http://registry.npmjs.org/', './gulp-typescript' ]
+416 verbose url resolved http://registry.npmjs.org/gulp-typescript
+417 info trying registry request attempt 1 at 14:26:57
+418 http GET http://registry.npmjs.org/gulp-typescript
+419 verbose url raw jasmine-core
+420 verbose url resolving [ 'http://registry.npmjs.org/', './jasmine-core' ]
+421 verbose url resolved http://registry.npmjs.org/jasmine-core
+422 info trying registry request attempt 1 at 14:26:57
+423 http GET http://registry.npmjs.org/jasmine-core
+424 verbose url raw lite-server
+425 verbose url resolving [ 'http://registry.npmjs.org/', './lite-server' ]
+426 verbose url resolved http://registry.npmjs.org/lite-server
+427 info trying registry request attempt 1 at 14:26:57
+428 http GET http://registry.npmjs.org/lite-server
+429 verbose url raw typings
+430 verbose url resolving [ 'http://registry.npmjs.org/', './typings' ]
+431 verbose url resolved http://registry.npmjs.org/typings
+432 info trying registry request attempt 1 at 14:26:57
+433 http GET http://registry.npmjs.org/typings
+434 verbose url raw angular/http
+435 verbose url resolving [ 'http://registry.npmjs.org/', './angular/http' ]
+436 verbose url resolved http://registry.npmjs.org/angular/http
+437 info trying registry request attempt 1 at 14:26:57
+438 http GET http://registry.npmjs.org/angular/http
+439 verbose url raw angular/core
+440 verbose url resolving [ 'http://registry.npmjs.org/', './angular/core' ]
+441 verbose url resolved http://registry.npmjs.org/angular/core
+442 info trying registry request attempt 1 at 14:26:57
+443 http GET http://registry.npmjs.org/angular/core
+444 verbose url raw angular/platform-browser-dynamic
+445 verbose url resolving [ 'http://registry.npmjs.org/',
+445 verbose url resolving   './angular/platform-browser-dynamic' ]
+446 verbose url resolved http://registry.npmjs.org/angular/platform-browser-dynamic
+447 info trying registry request attempt 1 at 14:26:57
+448 http GET http://registry.npmjs.org/angular/platform-browser-dynamic
+449 verbose url raw angular/platform-browser
+450 verbose url resolving [ 'http://registry.npmjs.org/', './angular/platform-browser' ]
+451 verbose url resolved http://registry.npmjs.org/angular/platform-browser
+452 info trying registry request attempt 1 at 14:26:57
+453 http GET http://registry.npmjs.org/angular/platform-browser
+454 verbose url raw angular/router
+455 verbose url resolving [ 'http://registry.npmjs.org/', './angular/router' ]
+456 verbose url resolved http://registry.npmjs.org/angular/router
+457 info trying registry request attempt 1 at 14:26:57
+458 http GET http://registry.npmjs.org/angular/router
+459 verbose url raw angular/upgrade
+460 verbose url resolving [ 'http://registry.npmjs.org/', './angular/upgrade' ]
+461 verbose url resolved http://registry.npmjs.org/angular/upgrade
+462 info trying registry request attempt 1 at 14:26:57
+463 http GET http://registry.npmjs.org/angular/upgrade
+464 verbose url raw angular/common
+465 verbose url resolving [ 'http://registry.npmjs.org/', './angular/common' ]
+466 verbose url resolved http://registry.npmjs.org/angular/common
+467 info trying registry request attempt 1 at 14:26:57
+468 http GET http://registry.npmjs.org/angular/common
+469 verbose url raw angular/compiler
+470 verbose url resolving [ 'http://registry.npmjs.org/', './angular/compiler' ]
+471 verbose url resolved http://registry.npmjs.org/angular/compiler
+472 info trying registry request attempt 1 at 14:26:57
+473 http GET http://registry.npmjs.org/angular/compiler
+474 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+475 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+476 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+477 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+478 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+479 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+480 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+481 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+482 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+483 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+484 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+485 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+486 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+487 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+488 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+489 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+490 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+491 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+492 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+493 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+494 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+495 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+496 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+497 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+498 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+499 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+500 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+501 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+502 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+503 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+504 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+505 info trying registry request attempt 2 at 14:27:08
+506 http GET http://registry.npmjs.org/angular2-in-memory-web-api
+507 info trying registry request attempt 2 at 14:27:08
+508 http GET http://registry.npmjs.org/es6-shim
+509 info trying registry request attempt 2 at 14:27:08
+510 http GET http://registry.npmjs.org/jquery
+511 info trying registry request attempt 2 at 14:27:08
+512 http GET http://registry.npmjs.org/bootstrap
+513 info trying registry request attempt 2 at 14:27:08
+514 http GET http://registry.npmjs.org/gulp-sass
+515 info trying registry request attempt 2 at 14:27:08
+516 http GET http://registry.npmjs.org/zone.js
+517 info trying registry request attempt 2 at 14:27:08
+518 http GET http://registry.npmjs.org/angular/platform-browser-dynamic
+519 info trying registry request attempt 2 at 14:27:08
+520 http GET http://registry.npmjs.org/concurrently
+521 info trying registry request attempt 2 at 14:27:08
+522 http GET http://registry.npmjs.org/font-awesome
+523 info trying registry request attempt 2 at 14:27:08
+524 http GET http://registry.npmjs.org/moment
+525 info trying registry request attempt 2 at 14:27:08
+526 http GET http://registry.npmjs.org/rxjs
+527 info trying registry request attempt 2 at 14:27:08
+528 http GET http://registry.npmjs.org/ng2-bootstrap
+529 info trying registry request attempt 2 at 14:27:08
+530 http GET http://registry.npmjs.org/symbol-observable
+531 info trying registry request attempt 2 at 14:27:08
+532 http GET http://registry.npmjs.org/reflect-metadata
+533 info trying registry request attempt 2 at 14:27:08
+534 http GET http://registry.npmjs.org/gulp-cli
+535 info trying registry request attempt 2 at 14:27:08
+536 http GET http://registry.npmjs.org/systemjs
+537 info trying registry request attempt 2 at 14:27:08
+538 http GET http://registry.npmjs.org/gulp-typescript
+539 info trying registry request attempt 2 at 14:27:08
+540 http GET http://registry.npmjs.org/tether
+541 info trying registry request attempt 2 at 14:27:08
+542 http GET http://registry.npmjs.org/jasmine-core
+543 info trying registry request attempt 2 at 14:27:08
+544 http GET http://registry.npmjs.org/lite-server
+545 info trying registry request attempt 2 at 14:27:08
+546 http GET http://registry.npmjs.org/typings
+547 info trying registry request attempt 2 at 14:27:08
+548 http GET http://registry.npmjs.org/angular/router
+549 info trying registry request attempt 2 at 14:27:08
+550 http GET http://registry.npmjs.org/angular/platform-browser
+551 info trying registry request attempt 2 at 14:27:08
+552 http GET http://registry.npmjs.org/angular/http
+553 info trying registry request attempt 2 at 14:27:08
+554 http GET http://registry.npmjs.org/del
+555 info trying registry request attempt 2 at 14:27:08
+556 http GET http://registry.npmjs.org/gulp
+557 info trying registry request attempt 2 at 14:27:08
+558 http GET http://registry.npmjs.org/gulp-autoprefixer
+559 info trying registry request attempt 2 at 14:27:08
+560 http GET http://registry.npmjs.org/angular/core
+561 info trying registry request attempt 2 at 14:27:08
+562 http GET http://registry.npmjs.org/angular/upgrade
+563 info trying registry request attempt 2 at 14:27:08
+564 http GET http://registry.npmjs.org/angular/common
+565 info trying registry request attempt 2 at 14:27:08
+566 http GET http://registry.npmjs.org/angular/compiler
+567 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+568 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+569 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+570 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+571 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+572 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+573 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+574 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+575 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+576 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+577 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+578 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+579 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+580 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+581 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+582 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+583 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+584 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+585 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+586 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+587 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+588 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+589 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+590 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+591 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+592 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+593 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+594 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+595 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+596 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+597 info retry will retry, error on last attempt: Error: connect ECONNREFUSED 10.92.100.8:80
+598 info trying registry request attempt 3 at 14:28:09
+599 http GET http://registry.npmjs.org/angular2-in-memory-web-api
+600 info trying registry request attempt 3 at 14:28:09
+601 http GET http://registry.npmjs.org/es6-shim
+602 info trying registry request attempt 3 at 14:28:09
+603 http GET http://registry.npmjs.org/jquery
+604 info trying registry request attempt 3 at 14:28:10
+605 http GET http://registry.npmjs.org/moment
+606 info trying registry request attempt 3 at 14:28:10
+607 http GET http://registry.npmjs.org/gulp-sass
+608 info trying registry request attempt 3 at 14:28:10
+609 http GET http://registry.npmjs.org/concurrently
+610 info trying registry request attempt 3 at 14:28:10
+611 http GET http://registry.npmjs.org/bootstrap
+612 info trying registry request attempt 3 at 14:28:10
+613 http GET http://registry.npmjs.org/font-awesome
+614 info trying registry request attempt 3 at 14:28:10
+615 http GET http://registry.npmjs.org/zone.js
+616 info trying registry request attempt 3 at 14:28:10
+617 http GET http://registry.npmjs.org/angular/platform-browser-dynamic
+618 info trying registry request attempt 3 at 14:28:10
+619 http GET http://registry.npmjs.org/ng2-bootstrap
+620 info trying registry request attempt 3 at 14:28:10
+621 http GET http://registry.npmjs.org/rxjs
+622 info trying registry request attempt 3 at 14:28:10
+623 http GET http://registry.npmjs.org/angular/router
+624 info trying registry request attempt 3 at 14:28:10
+625 http GET http://registry.npmjs.org/tether
+626 info trying registry request attempt 3 at 14:28:10
+627 http GET http://registry.npmjs.org/angular/platform-browser
+628 info trying registry request attempt 3 at 14:28:10
+629 http GET http://registry.npmjs.org/lite-server
+630 info trying registry request attempt 3 at 14:28:10
+631 http GET http://registry.npmjs.org/typings
+632 info trying registry request attempt 3 at 14:28:10
+633 http GET http://registry.npmjs.org/angular/http
+634 info trying registry request attempt 3 at 14:28:10
+635 http GET http://registry.npmjs.org/gulp-typescript
+636 info trying registry request attempt 3 at 14:28:10
+637 http GET http://registry.npmjs.org/reflect-metadata
+638 info trying registry request attempt 3 at 14:28:10
+639 http GET http://registry.npmjs.org/symbol-observable
+640 info trying registry request attempt 3 at 14:28:10
+641 http GET http://registry.npmjs.org/gulp-cli
+642 info trying registry request attempt 3 at 14:28:10
+643 http GET http://registry.npmjs.org/systemjs
+644 info trying registry request attempt 3 at 14:28:10
+645 http GET http://registry.npmjs.org/jasmine-core
+646 info trying registry request attempt 3 at 14:28:10
+647 http GET http://registry.npmjs.org/gulp
+648 info trying registry request attempt 3 at 14:28:10
+649 http GET http://registry.npmjs.org/gulp-autoprefixer
+650 info trying registry request attempt 3 at 14:28:10
+651 http GET http://registry.npmjs.org/angular/upgrade
+652 info trying registry request attempt 3 at 14:28:10
+653 http GET http://registry.npmjs.org/del
+654 info trying registry request attempt 3 at 14:28:10
+655 http GET http://registry.npmjs.org/angular/core
+656 info trying registry request attempt 3 at 14:28:10
+657 http GET http://registry.npmjs.org/angular/common
+658 info trying registry request attempt 3 at 14:28:10
+659 http GET http://registry.npmjs.org/angular/compiler
+660 silly lockFile d049cc02-ngular2-in-memory-web-api-0-0-10 angular2-in-memory-web-api@0.0.10
+661 silly lockFile d049cc02-ngular2-in-memory-web-api-0-0-10 angular2-in-memory-web-api@0.0.10
+662 silly lockFile 1d0beeb5-es6-shim-0-35-1 es6-shim@^0.35.1
+663 silly lockFile 1d0beeb5-es6-shim-0-35-1 es6-shim@^0.35.1
+664 silly lockFile 765980b0-jquery-2-2-4 jquery@^2.2.4
+665 silly lockFile 765980b0-jquery-2-2-4 jquery@^2.2.4
+666 error Error: connect ECONNREFUSED 10.92.100.8:80
+666 error     at Object.exports._errnoException (util.js:870:11)
+666 error     at exports._exceptionWithHostPort (util.js:893:20)
+666 error     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+666 error  { [Error: connect ECONNREFUSED 10.92.100.8:80]
+666 error   code: 'ECONNREFUSED',
+666 error   errno: 'ECONNREFUSED',
+666 error   syscall: 'connect',
+666 error   address: '10.92.100.8',
+666 error   port: 80,
+666 error   parent: 'spring-boot-angular2' }
+667 error If you are behind a proxy, please make sure that the
+667 error 'proxy' config is set properly.  See: 'npm help config'
+668 error System Windows_NT 6.1.7601
+669 error command "c:\\Workfolder\\frameworks\\nodejs\\node.exe" "c:\\Workfolder\\frameworks\\nodejs\\npm-1.4.9\\node_modules\\npm\\bin\\npm-cli.js" "install"
+670 error cwd c:\Workfolder\project\EnglishCoach\src\main\web
+671 error node -v v4.4.5
+672 error npm -v 1.4.9
+673 error syscall connect
+674 error code ECONNREFUSED
+675 error errno ECONNREFUSED
+676 error stack Error: connect ECONNREFUSED 10.92.100.8:80
+676 error stack     at Object.exports._errnoException (util.js:870:11)
+676 error stack     at exports._exceptionWithHostPort (util.js:893:20)
+676 error stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1061:14)
+677 verbose exit [ 1, true ]
