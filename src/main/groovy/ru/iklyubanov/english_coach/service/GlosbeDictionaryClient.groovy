@@ -11,7 +11,7 @@ public class GlosbeDictionaryClient {
 
     public String testDictionary()
     {
-        final String uri = "https://glosbe.com/gapi/translate?from=pol&dest=eng&format=json&phrase=witaj&pretty=true";
+        final String uri = "https://glosbe.com/gapi/translate?from=eng&dest=eng&format=json&phrase=pull%20up&pretty=true";
         RestTemplate restTemplate = new RestTemplate()
         def result = restTemplate.getForObject(uri, String.class)
         println result
